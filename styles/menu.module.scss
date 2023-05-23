@@ -1,0 +1,32 @@
+$main-color:#6c6a6a;
+$sec-color:#013169;
+
+.menuicon{
+  font-size: 34px;
+  color: $main-color;
+}
+.menu{
+  li{
+    .siteNav{
+      color: $main-color;
+      letter-spacing: 0.2px;
+      font-weight: 500;
+      font-size: 14px;
+      padding: 20px 10px !important;
+      &:hover{
+        color: $sec-color;
+      }
+      span{
+        &:hover{
+          color: $sec-color;
+          border-bottom: 2px solid $sec-color;
+          padding-bottom: 8px;
+        }
+        &:focus{
+          color: $sec-color;
+          border-bottom: 2px solid $sec-color;
+        }
+      }
+    }
+  }
+}
